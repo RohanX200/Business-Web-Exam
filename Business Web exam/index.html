@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Animated Portfolio Website HTML CSS JS |
+    Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!--The Home page of the website such as the logo and functionality of the buttons are presented here-->
+    <header class="header">
+        
+        <a href="#" class="logo">Portfolio Webpage</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;" >About</a>
+            <a href="#contact" style="--i:3;" >Contact</a>
+            <a href="#projects" style="--i:4;" >Projects</a>
+            <a href="#reflection" style="--i:5;" >Reflection</a>
+
+        </nav>
+    </header>
+
+    <!--This represent the home content for the Portfolio Webpage-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rohan Summun</h1>
+            <h3>And I'm a <span class="multiple-text">
+                </span></h3>
+            <p>I am a Web Developper student. I am passionate about learning how to develop interactive and user-friendly websites.</p>  
+            <div class="social-media">
+                <a href="https://www.facebook.com/rohan.summun" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/Rohan74248495" style="--i:8;"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/rohan_summun/" style="--i:9;"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/rohan-summun-78231a273/" style="--i:10;"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            
+        </div>
+
+        <div class="home-img">
+            <img src="Homeupdated.jpg" alt="">
+        </div>
+    </section>
+
+<!--This section represents the about section of the portfolio-->
+<section class="about" id="about">
+    <div class="about-content">
+        
+        <h1>About Me</h1>
+       
+        <p>I am currently a student at Curtin Mauritius. I am studying in the field of Business Information Technology with a passion of learning about the evolution of Technology. I am currently gaining knowledge 
+            on CSS, HTML and JavaScript with an ambition of becoming an expert in Web Developping in the future. I wish that I gain enough knowledge so that I can adapt with the changing environment and the new inventions
+            that are being implemented.</p>  
+        
+    </div>
+
+    <div class="about-img">
+        <img src="About.jpg" alt="">
+    </div>
+</section>
+
+    <!--This represents the projects section which have been completed in class to insert in the webpage-->
+    <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects__container bd-grid">
+            
+            <div class="projects__img">
+                <h1>Week 1</h1>
+                <img src="project1.png" alt="">
+                
+                <a href="rohansummunweek1.netlify.app" download=""><i class='bx bx-link-external'></i></a>
+            </div>
+            
+            <div class="projects__img">
+                <h1>Week 2</h1>
+                <img src="project2.png" alt="">
+                <a href="rohansummunweek2.netlify.app" download=""><i class='bx bx-link-external'></i></a>
+            </div>
+            <div class="projects__img">
+                <h1>RPS</h1>
+                <img src="project3.png" alt="">
+                <a href="rohansummunrps.netlify.app" download=""><i class='bx bx-link-external'></i></a>
+            </div>
+            <div class="projects__img">
+                <h1>Flatland</h1>
+                <img src="project4.png" alt="">
+                <a href="rohansummunflatland.netlify.app" download=""><i class='bx bx-link-external'></i></a>
+            </div>
+            <div class="projects__img">
+                <h1>Todo list</h1>
+                <img src="project5.png" alt="">
+                <a href="rohansummuntodolist.netlify.app" download=""><i class='bx bx-link-external'></i></a>
+            </div>
+            <div class="projects__img">
+                <h1>RSS</h1>
+                <img src="project6.png" alt="">
+                <a href="rohansummunrss.netlify.app" download=""><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--The contact details for the client is inserted in this section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">My <span>Contact</span></h2>
+
+        <form action="input">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="Name" id="name" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+    <!--This part represents the reflection of the assignment in the website--> 
+    <section class="reflection" id="reflection">
+
+        <div class="reflection-content">
+            <h2 class="heading"> My<span> Reflection</span></h2>
+            <h3>These are the challenges that I have faced while creating the Website and how I overcame them</h3>
+            
+            <ol>
+                <li>1.When designing a website, it is crucial to keep the design very basic such as simple and appropriate colors while keeping in mind that it matches the theme and the content.</li>
+                <li>2.Bad value characters. Bad value for "mail" for attribute type on element input. W3School HTML validator have detected this error meaning "mail" should have been written as "email".</li>
+                <li>3.No space allowed. While writing values, there are null values that were not filled. Using W3School validator, the error is detected and a positive integer value was suggested to insert in the null space.</li>
+                <li>4.The website should be responsive so that it can be run on different platforms such as mobile phones, laptops and PCs.</li>
+                <li>5.While I was working on my website, I faced challenges such as bugs where because of a missing item, the whole code was not working. I had to spend all night to re check all the codes and then find the mistake. </li>
+                <li>6.Usually, when inserting pictures in my website, I misjudged and placed it in another folder.</li>
+                <li>7.Finally, I did remember afterwards to download the images into the assessment folder for the website.</li>
+                <li>8.Moreover, I had issues with inserting my portfolio files and the ZIP files also as there were too many and were not well arranged. I had to arrange them by order and insert them into my webpage. I had issues with designing the website as the interface was a bit difficult to handle since it had to match 
+                    with my picture on the home page. I had to design and inspect the website each time to eliminate bugs and to build the website the way it is now.</li>
+                <li>9.The W3Schools website has helped me to learn new things about my errors and how to manipulate the layout of my website.
+                </li>
+            </ol>
+            
+        </div>
+    </section>
+
+    <!--The logos and links related to the logos are found in this section-->
+    <footer class="footer">
+        <p class="footer__title"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" ></a><br >This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+
+        <div class="footer__social">
+            <a href="https://www.facebook.com/rohan.summun" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/rohan_summun/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/Rohan74248495" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+    
+
+    <!--This part is where the HTML is linked to the JavaScript-->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
